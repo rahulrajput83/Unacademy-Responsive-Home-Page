@@ -140,3 +140,24 @@ body{
 .daily_class, .practice, .learn {
     width: 30%;
 }
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 9999px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 9999px;
+}
+::-webkit-scrollbar-track:hover {
+    background: rgb(192, 190, 190);
+}
