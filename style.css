@@ -134,6 +134,7 @@ body{
     display: flex;
     flex-direction: row;
     margin: 50px;
+    margin-top: 120px;
     justify-content: space-between;
 }
 
@@ -142,11 +143,111 @@ body{
 }
 
 
+#get {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app {
+    padding-left: 200px;
+    width: 50%;
+    color: #3C4852;
+
+}
+.screenshot {
+    width: 50%;
+}
+
+#footer1 {
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 30px;
+    margin-top: 200px;
+}
+
+#footer2 {
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 30px;
+    margin-top: 50px;
+}
+.unacamedy, .call {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    color: #3C4852;
+    margin-right: 150px;
+}
+.unacamedy span, .call span{
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+.company, .popular {
+    font-size: 14px;
+    color: #3C4852;
+    width: 25%;
+}
+
+#footer1 .company ul li, #footer2 .popular ul li{
+    padding-top: 15px;
+    cursor: pointer;
+}
+#footer1 .company ul li:hover, #footer2 .popular ul li:hover{
+    color: black;
+}
+
+.help, .trending {
+    font-size: 14px;
+    color: #3C4852;
+    width: 25%;
+}
+
+#footer1 .help ul li, #footer2 .trending ul li {
+    padding-top: 15px;
+    cursor: pointer;
+}
+#footer1 .help ul li:hover, #footer2 .trending ul li:hover {
+    color: black;
+}
+
+.product, .study {
+    font-size: 14px;
+    color: #3C4852;
+    width: 25%;
+}
+
+#footer1 .product ul li, #footer2 .study ul li {
+    padding-top: 15px;
+    cursor: pointer;
+}
+#footer1 .product ul li:hover, #footer2 .study ul li:hover {
+    color: black;
+}
+
+#line{
+    margin: auto;
+    height: 1px;
+    width: 90%;
+    background: #E9EEF2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 
 
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 6px;
     border-radius: 9999px;
 }
 ::-webkit-scrollbar-track {
