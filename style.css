@@ -144,25 +144,52 @@ body{
 
 
 #get {
-    width: 100%;
+    margin: 70px;
+    padding-left: 30px;
+    width: 90%;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
     margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.app {
-    padding-left: 200px;
-    width: 50%;
+#get .app{
+    margin: 8%;
+    width: 30%;
     color: #3C4852;
-
 }
-.screenshot {
+#get .app p{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+#get .app span{
+    font-size: 16px;
+}
+#get .app #links{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#get .app #links .appstore{
+    width: 150px;
+    height: 45px;
+}
+#get .app #links .playstore{
+    margin-left: 20px;
+    width: 150px;
+    height: 45px;
+}
+#get .screenshot {
     width: 50%;
+}
+#get .screenshot img {
+    width: 432px;
+    height: 424px;
 }
 
 #footer1 {
-    margin: 35px;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -171,7 +198,6 @@ body{
 }
 
 #footer2 {
-    margin: 35px;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -238,8 +264,26 @@ body{
     height: 1px;
     width: 90%;
     background: #E9EEF2;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#bottom {
+    margin: 30px;
+    margin-left: 30px;
+}
+#bottom .about{
+    float: left;
+    padding-left: 40px;
+    color: #3C4852;
+    font-size: 12px;
+    padding-bottom: 60px;
+}
+#bottom .follow{
+    float: right;
+    color: #3C4852;
+    font-size: 12px;
+    padding-right: 30px;
+    padding-bottom: 60px;
 }
 
 
@@ -260,5 +304,5 @@ body{
     border-radius: 9999px;
 }
 ::-webkit-scrollbar-track:hover {
-    background: rgb(192, 190, 190);
+    background: rgb(167, 165, 165);
 }
