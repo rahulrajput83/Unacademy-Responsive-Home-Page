@@ -527,8 +527,9 @@ body{
         text-align: center;
     }
     #container_2 .daily_class svg, #container_2 .practice svg, #container_2 .learn svg {
-        width: 220px;
-        height: 140px;
+        width: 60%;
+        height: auto;
+        max-width: 60%;
     }
     #get {
         flex-direction: column-reverse;
@@ -626,11 +627,13 @@ body{
         margin-bottom: 10px;
     }
     #get .screenshot img {
-        width: 200px;
-        height: 180px;
+        width: 70%;
+        height: auto;
+        max-width: 70%;
     }
     #goals{
-        width: 100%;
+        width: 95%;
+        max-width: 95%;
     }
     
 }
