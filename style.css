@@ -527,9 +527,9 @@ body{
         text-align: center;
     }
     #container_2 .daily_class svg, #container_2 .practice svg, #container_2 .learn svg {
-        width: 60%;
+        width: 90%;
         height: auto;
-        max-width: 60%;
+        max-width: 90%;
     }
     #get {
         flex-direction: column-reverse;
@@ -538,8 +538,9 @@ body{
         align-self: center;
         justify-content: center;
         text-align: center;
-        padding-left: 30px;
         margin: auto;
+        max-width: 90%;
+        width: 90%;
     }
     #get .app{
         width: 100%;
@@ -632,8 +633,8 @@ body{
         max-width: 70%;
     }
     #goals{
-        width: 95%;
-        max-width: 95%;
+        width: 80%;
+        max-width: 80%;
     }
     
 }
