@@ -56,7 +56,6 @@ body{
     font-size: 60px;
     color: #3C4852;
     height: fit-content;
-    font-size: 60px;
 }
 #container_1 .one .btn1{
     margin-top: 45px;
@@ -459,6 +458,9 @@ body{
 #bottom {
     margin: 30px;
     margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #bottom .about{
     padding-left: 40px;
@@ -468,7 +470,6 @@ body{
 }
 
 #bottom ul {
-    float: right;
     margin:0;
     padding:0;
     display:flex;
@@ -515,6 +516,7 @@ body{
     }
     #container_1 .one #p{
         text-align: center;
+        font-size: 30px;
     }
     #container_2{
         flex-direction: column;
@@ -523,6 +525,10 @@ body{
         width: 100%;
         padding-top: 60px;
         text-align: center;
+    }
+    #container_2 .daily_class svg, #container_2 .practice svg, #container_2 .learn svg {
+        width: 220px;
+        height: 140px;
     }
     #get {
         flex-direction: column-reverse;
@@ -540,6 +546,15 @@ body{
     #get .screenshot {
         margin-top: 40px;
         width: 100%;
+    }
+    #get .app #links .appstore{
+        width: 110px;
+        height: 35px;
+    }
+    #get .app #links .playstore{
+        margin-left: 15px;
+        width: 110px;
+        height: 35px;
     }
     #learning {
         flex-direction: column;
@@ -565,9 +580,14 @@ body{
         
     }
     #learning .two {
-        margin-left: 0px;
+        margin: auto;
         margin-top: 60px;
-        width: 100%;
+        width: auto;
+        grid-template-columns: auto;
+    }
+    #learning .two .educators {
+        margin-top: 40px;
+    
     }
     #footer1, #footer2 {
         display: flex;
@@ -590,6 +610,29 @@ body{
         margin-top: 20px;
         width: 90%;
     }
+    #footer1 .product ul li, #footer1 .company ul li, #footer1 .help ul li, #footer2 .study ul li, #footer2 .popular ul li, #footer2 .trending ul li{
+        width: fit-content;
+    }
+    #bottom .about{
+        padding-left: 0;
+        padding-bottom: 0px;
+    }
+    #bottom{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    #bottom ul {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    #get .screenshot img {
+        width: 200px;
+        height: 180px;
+    }
+    #goals{
+        width: 100%;
+    }
+    
 }
 
 
