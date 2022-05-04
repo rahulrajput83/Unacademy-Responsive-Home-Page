@@ -7,6 +7,7 @@
 }
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 #nav{
     width: 100%;
@@ -41,20 +42,23 @@ body{
 #container_1 {
     margin-top: 100px;
     height: auto;
-    width: 70%;
+    width: 100%;
+    padding-left: 70px;
+}
+#container_1 .one {
+    bottom: 0;
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
-
+    width: auto;   
 }
-#container_1 #p{
+
+#container_1 .one #p{
     font-size: 60px;
-    float: left;
     color: #3C4852;
     height: fit-content;
     font-size: 60px;
 }
-#container_1 .btn1{
+#container_1 .one .btn1{
     margin-top: 45px;
     font-size: 18px;
     cursor: pointer;
@@ -137,7 +141,7 @@ body{
     justify-content: space-between;
 }
 
-.daily_class, .practice, .learn {
+#container_2 .daily_class, #container_2 .practice, #container_2 .learn {
     width: 30%;
 }
 
@@ -388,15 +392,11 @@ body{
 }
 .unacamedy, .call {
     width: 35%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 40px;
     color: #3C4852;
     margin-right: 150px;
 }
-.unacamedy span, .call span{
-    padding-top: 20px;
-    font-size: 13px;
+.unacamedy ul li, .call ul li{
+    padding-top: 15px;
 }
 
 .company, .popular {
@@ -438,8 +438,7 @@ body{
 #footer1 .product ul li, #footer2 .study ul li {
     padding-top: 15px;
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
+    text-decoration: none;
 }
 #footer1 .product ul li:hover, #footer2 .study ul li:hover {
     color: black;
@@ -503,12 +502,95 @@ body{
     font-size: 13px;
     color: #3C4852;
 }
-  
 
-
-
-
-
+@media (max-width: 1000px) {
+    *{
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+    }
+    #nav .menubtn{
+        margin-right: 20px;
+    }
+    #container_1 .one #p{
+        text-align: center;
+    }
+    #container_2{
+        flex-direction: column;
+    }
+    #container_2 .daily_class, #container_2 .practice, #container_2 .learn {
+        width: 100%;
+        padding-top: 60px;
+        text-align: center;
+    }
+    #get {
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 30px;
+        margin: auto;
+    }
+    #get .app{
+        width: 100%;
+    }
+    #get .screenshot {
+        margin-top: 40px;
+        width: 100%;
+    }
+    #learning {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        margin: auto;
+    }
+    #learning .one{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        
+    }
+    #learning .one .btn1{
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    #learning .two {
+        margin-left: 0px;
+        margin-top: 60px;
+        width: 100%;
+    }
+    #footer1, #footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .unacamedy, .call {
+        width: 90%;
+        text-align: left;
+        margin-right: 0px;
+    }
+    .company, .popular{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .help, .trending{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .product, .study{
+        margin-top: 20px;
+        width: 90%;
+    }
+}
 
 
 ::-webkit-scrollbar {
